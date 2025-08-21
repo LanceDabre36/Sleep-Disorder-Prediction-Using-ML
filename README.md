@@ -1,129 +1,43 @@
-# Sleep-Disorder-Prediction-Using-ML
-📌 Overview
 
-This project aims to predict sleep disorders such as Insomnia, Sleep Apnea, or None using machine learning models trained on lifestyle and health-related data.
-The dataset includes features such as Age, Gender, Occupation, BMI, Stress Level, Sleep Duration, Heart Rate, and Blood Pressure.
+# Project Title
 
-By analyzing these factors, we use Exploratory Data Analysis (EDA) and multiple ML algorithms (Logistic Regression, Decision Tree, Random Forest, XGBoost) to build prediction models.
+A brief description of what this project does and who it's for
 
-📊 Dataset
 
-The dataset used is: Sleep_health_and_lifestyle_dataset.csv
-Key Features:
+## 📌 Future Enhancements
 
-Gender
+- Deploy the model using Streamlit / Flask for interactive predictions.
+- Live previews
+- Fullscreen mode
+- Cross platform
 
-Age
 
-Occupation
+## Demo
 
-Sleep Duration
+Insert gif or link to demo
 
-Quality of Sleep
 
-Physical Activity Level
+## Deployment
 
-Stress Level
+To deploy this project run
 
-BMI Category
+```bash
+  npm run deploy
+```
 
-Blood Pressure (Systolic/Diastolic)
 
-Heart Rate
+## Acknowledgements
 
-Daily Steps
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-Sleep Disorder (Target Variable)
 
-🔍 Exploratory Data Analysis (EDA)
+## Feedback
 
-Distribution of Sleep Disorders (Bar & Pie Charts)
+If you have any feedback, please reach out to us at fake@fake.com
 
-Gender, Occupation, and BMI Analysis
 
-Stress Level comparison by Gender
+## 🚀 About Me
+I'm a full stack developer...
 
-Daily Steps variation across Occupations
-
-Blood Pressure trends with Age
-
-Outlier Detection using IQR
-
-Correlation Heatmap of Features
-
-📊 Visualizations were done using Matplotlib, Seaborn, and Plotly.
-
-⚙️ Data Preprocessing
-
-Removed irrelevant column: Person ID
-
-Handled missing values in Sleep Disorder (replaced with "None")
-
-Converted Blood Pressure into Systolic and Diastolic
-
-One-Hot Encoding for categorical features (Gender, Occupation, BMI Category)
-
-Label Encoding for target variable (Sleep Disorder)
-
-🤖 Machine Learning Models
-
-We trained and evaluated multiple ML models:
-
-Logistic Regression
-
-Decision Tree Classifier
-
-Random Forest Classifier
-
-XGBoost Classifier
-
-📌 Evaluation Metrics:
-
-Accuracy
-
-Classification Report (Precision, Recall, F1-Score)
-
-🏆 Results
-
-Random Forest & XGBoost performed better compared to Logistic Regression.
-
-Feature Importance showed that Sleep Duration, Stress Level, and BMI were highly correlated with sleep disorders.
-
-🚀 Installation & Usage
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/Sleep-Disorder-Prediction-Using-ML.git
-cd Sleep-Disorder-Prediction-Using-ML
-
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the Code
-python sleep_disorder_prediction.py
-
-📦 Requirements
-
-Python 3.x
-
-numpy
-
-pandas
-
-matplotlib
-
-seaborn
-
-plotly
-
-scikit-learn
-
-xgboost
-
-(You can create a requirements.txt file with the above libraries.)
-
-📌 Future Enhancements
-
-Deploy the model using Streamlit / Flask for interactive predictions.
-
-Improve model performance with Hyperparameter Tuning.
-
-Try Deep Learning approaches (ANN, LSTM).
